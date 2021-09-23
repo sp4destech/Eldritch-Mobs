@@ -80,6 +80,15 @@ public class EldritchMobsConfig implements ConfigData {
     @Comment("Enable custom user defined loot")
     public boolean enableCustomLoot = false;
 
+    @Comment("Eldritch Attack Modifier")
+    public int EldritchAtkMod = 7;
+
+    @Comment("Ultra Attack Modifier")
+    public int UltraAtkMod = 4;
+
+    @Comment("Elite Attack Modifier")
+    public int EliteAtkMod = 2;
+
     @ConfigEntry.Gui.CollapsibleObject
     public DisableModifiers disableModifiers = new DisableModifiers();
 

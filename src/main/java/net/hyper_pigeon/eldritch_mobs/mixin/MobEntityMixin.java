@@ -400,6 +400,23 @@ public abstract class MobEntityMixin extends LivingEntity implements ComponentPr
                 }
             }
             EldritchMobsMod.useAbility(this);
+
+            /* Quickly implement Attack Modifications */
+            if(EldritchMobsMod.isEldritch(this) && !this.getType().equals(EntityType.CREEPER)){
+                StatusEffectInstance strength = new StatusEffectInstance(StatusEffects.STRENGTH, 10000000, EldritchMobsMod.CONFIG.EldritchAtkMod);
+                strength.isPermanent();
+                this.addStatusEffect(strength);
+            }
+            else if(EldritchMobsMod.isUltra(this) && !this.getType().equals(EntityType.CREEPER)){
+                StatusEffectInstance strength = new StatusEffectInstance(StatusEffects.STRENGTH, 10000000, EldritchMobsMod.CONFIG.UltraAtkMod);
+                strength.isPermanent();
+                this.addStatusEffect(strength);
+            } 
+            else if(EldritchMobsMod.isElite(this) && !this.getType().equals(EntityType.CREEPER)){
+                StatusEffectInstance strength = new StatusEffectInstance(StatusEffects.STRENGTH, 10000000, EldritchMobsMod.CONFIG.EliteAtkMod);
+                strength.isPermanent();
+                this.addStatusEffect(strength);
+            }
         }
     }
 
