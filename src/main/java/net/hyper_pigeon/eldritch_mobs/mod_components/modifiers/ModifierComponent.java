@@ -57,17 +57,17 @@ public class ModifierComponent implements ModifierInterface {
     private ArrayList<String> mods = new ArrayList<>(Arrays.asList("alchemist", "berserk", "yeeter", "blinding", "burning",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant","rust", "speedster","sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering","duplicator", "gliding", "pure", "breaching"));
+            "withering","duplicator", "leaping", "pure", "breaching"));
 
     private ArrayList<String> ranged_mobs_mods = new ArrayList<>(Arrays.asList("alchemist", "blinding",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant", "sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering","sniper", "duplicator", "gliding", "pure", "breaching"));
+            "withering","sniper", "duplicator", "leaping", "pure", "breaching"));
 
     public ArrayList<String> creeper_mods = new ArrayList<>(Arrays.asList("alchemist", "blinding",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant", "speedster","sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering", "duplicator", "gliding"));
+            "withering", "duplicator", "leaping"));
 
     private ArrayList<String> alt_activated_mods = new ArrayList<>(Arrays.asList("yeeter", "deflector","rust","ender","lifesteal","one_up","thorny","toxic",
             "withering","sniper"));
