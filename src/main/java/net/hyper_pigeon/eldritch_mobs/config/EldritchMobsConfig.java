@@ -123,7 +123,7 @@ public class EldritchMobsConfig implements ConfigData {
         public  boolean disableWithering = false;
         public  boolean disableSniper = false;
         public boolean disableDuplicator = false;
-        public boolean disableGliding = false;
+        public boolean disableLeaping = false;
 //          extreme modifiers; disabled by default.
         public boolean disablePure = true;
         public boolean disableBreaching = true;
@@ -220,8 +220,8 @@ public class EldritchMobsConfig implements ConfigData {
         if(disableModifiers.disableDuplicator) {
             ModifierComponent.all_mods.remove("duplicator");
         }
-        if(disableModifiers.disableGliding) {
-            ModifierComponent.all_mods.remove("gliding");
+        if(disableModifiers.disableLeaping) {
+            ModifierComponent.all_mods.remove("leaping");
         }
         if(disableModifiers.disablePure) {
             ModifierComponent.all_mods.remove("pure");

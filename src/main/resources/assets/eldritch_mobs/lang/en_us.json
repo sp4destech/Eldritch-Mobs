@@ -55,7 +55,7 @@
   "text.autoconfig.eldritch_mobs.option.disableModifiers.disableWithering": "Disable Withering",
   "text.autoconfig.eldritch_mobs.option.disableModifiers.disableSniper": "Disable Sniper",
   "text.autoconfig.eldritch_mobs.option.disableModifiers.disableDuplicator": "Disable Duplicator",
-  "text.autoconfig.eldritch_mobs.option.disableModifiers.disableGliding": "Disable Gliding",
+  "text.autoconfig.eldritch_mobs.option.disableModifiers.disableLeaping": "Disable Leaping",
   "text.autoconfig.eldritch_mobs.option.disableModifiers.disablePure": "Disable Pure",
   "text.autoconfig.eldritch_mobs.option.disableModifiers.disableBreaching": "Disable Breaching",
   "block.eldritch_mobs.soothing_lantern": "Soothing Lantern"

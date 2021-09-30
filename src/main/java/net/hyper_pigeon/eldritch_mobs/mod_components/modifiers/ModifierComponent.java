@@ -95,7 +95,7 @@ public class ModifierComponent implements ModifierInterface {
         mods_hashmap.put("weakness",new WeaknessComponent());
         mods_hashmap.put("webslinging",new WebslingingComponent());
         mods_hashmap.put("duplicator", new DuplicatorComponent());
-        mods_hashmap.put("gliding", new GlidingComponent());
+        mods_hashmap.put("leaping", new LeapingComponent());
         mods_hashmap.put("pure", new PureComponent());
         mods_hashmap.put("breaching", new BreachingComponent());
     }
