@@ -52,22 +52,22 @@ public class ModifierComponent implements ModifierInterface {
     public static ArrayList<String> all_mods = new ArrayList<>(Arrays.asList("alchemist", "berserk", "yeeter", "blinding", "burning",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant","rust", "speedster","sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering", "sniper", "duplicator"));
+            "withering", "sniper", "duplicator", "gliding", "pure", "breaching"));
 
     private ArrayList<String> mods = new ArrayList<>(Arrays.asList("alchemist", "berserk", "yeeter", "blinding", "burning",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant","rust", "speedster","sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering","duplicator"));
+            "withering","duplicator", "gliding", "pure", "breaching"));
 
     private ArrayList<String> ranged_mobs_mods = new ArrayList<>(Arrays.asList("alchemist", "blinding",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant", "sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering","sniper", "duplicator"));
+            "withering","sniper", "duplicator", "gliding", "pure", "breaching"));
 
     public ArrayList<String> creeper_mods = new ArrayList<>(Arrays.asList("alchemist", "blinding",
             "cloaked","deflector","draining","drowning","ender","ghastly", "gravity","lethargic","lifesteal","one_up","regen",
             "resistant", "speedster","sprinter","starving","stormy","thorny","toxic","weakness","webslinging",
-            "withering", "duplicator"));
+            "withering", "duplicator", "gliding"));
 
     private ArrayList<String> alt_activated_mods = new ArrayList<>(Arrays.asList("yeeter", "deflector","rust","ender","lifesteal","one_up","thorny","toxic",
             "withering","sniper"));
@@ -95,6 +95,9 @@ public class ModifierComponent implements ModifierInterface {
         mods_hashmap.put("weakness",new WeaknessComponent());
         mods_hashmap.put("webslinging",new WebslingingComponent());
         mods_hashmap.put("duplicator", new DuplicatorComponent());
+        mods_hashmap.put("gliding", new GlidingComponent());
+        mods_hashmap.put("pure", new PureComponent());
+        mods_hashmap.put("breaching", new BreachingComponent());
     }
 
     public ArrayList<String> modifier_list = new ArrayList<>();

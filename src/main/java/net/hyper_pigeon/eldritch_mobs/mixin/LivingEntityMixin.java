@@ -87,7 +87,6 @@ public abstract class LivingEntityMixin extends Entity implements ComponentProvi
             at = @At("HEAD")
     )
     private void configureCustomName(CallbackInfo ci) {
-
         // only attempt to apply a custom name to the mob on their first tick
         if(!world.isClient && !eldritchMobs_hasConfiguredName
         && (this.getType().isIn(EldritchMobsMod.ELDRITCH_ALLOWED)) &&
