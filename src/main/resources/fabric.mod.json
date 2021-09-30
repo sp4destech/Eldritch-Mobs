@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "eldritch_mobs",
-  "version": "${version}",
+  "version": "1.9.9",
 
   "name": "Eldritch Mobs",
   "description": "A port of the Infernal Mobs mod made for Modfest 1.16 2020",

@@ -17,7 +17,7 @@ public class BlindingComponent implements ModifierInterface {
 
     @Override
     public void useAbility(MobEntity entity) {
-        if(entity.getTarget() != null && entity.canSee(entity.getTarget()) && entity.getTarget().isAlive()) {
+        if(entity.getAttacking() != null && entity.getTarget() != null && entity.getTarget().isAlive()) {
             long time = entity.getEntityWorld().getTime();
             if (time > nextAbilityUse) {
                 nextAbilityUse = time + cooldown;

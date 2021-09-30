@@ -75,7 +75,7 @@ public class ModifierComponent implements ModifierInterface {
     private HashMap<String, ModifierInterface> mods_hashmap = new HashMap<>();
     {
         mods_hashmap.put("alchemist", new AlchemyComponent());
-        mods_hashmap.put("berserk", new BeserkComponent());
+        mods_hashmap.put("berserk", new BerserkComponent());
         mods_hashmap.put("blinding", new BlindingComponent());
         mods_hashmap.put("burning", new BurningComponent());
         mods_hashmap.put("cloaked",new CloakedComponent());
